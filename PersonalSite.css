@@ -1,0 +1,12 @@
+
+ body{
+    
+background-color:rgb(102, 189, 192);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: justify;
+ }
+
+ ul{
+    /* list-style:disc; */
+    list-style-type:square;
+ }
