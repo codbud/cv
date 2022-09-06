@@ -5,39 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="./contact_form.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 </head>
 <body>
-    <div id="xyz" align="center" width="200px" height="250">
-    <form action="mailto:azar63be@gmail.com" method="post" enctype="text/plain"">
+    <div id="cont-form-design" align="center">
+    <form action="mailto:azar63be@gmail.com" method="post" enctype="text/plain">
         
-        <h4>Contact Me  Here!</h4>
+        <h4 class="cont-meh4">your feedbacks are invited Here!</h4>
         <table cellspacing="10px">
             <tr>
-                <td><label for="">Your Name</label></td>
-                <td><input name="yourName" type="text" id="user_name" placeholder="Enter your name" required></td>
+                <td><label class="cont-meh4" for="user_name">Name</label></td>
+                <td><p><input name="yourName" type="text" id="user_name" placeholder="Enter your name" required></p></td>
             </tr>
 
             <tr>
-                <td><label for="">Your Email ID</label></td>
+                <td><label class="cont-meh4"  for="email">Email ID</label></td>
                 <td><input name="yourEmailID"  type="mail" id="email" placeholder="Enter your Email ID" required></td>
             </tr>
 
              <tr>
-                <td><label for="">Your Mobile Number</label></td>
+                <td><label class="cont-meh4"  for="cont-num">Mobile Number</label></td>
                 <td><input name="yourMobile#"  type="tel" id="cont-num" placeholder="Enter your mobile number" required></td>
             </tr>
 
             <tr>
-                <td><label for="">Your Thoughts/Message</label></td>
-                <td><textarea name="yourMessage" id="" cols="20" rows="5" placeholder="Enter your message here..." required></textarea></td>
+                <td><label class="cont-meh4"  for="feed-msg">Your Feedback/Message</label></td>
+                <td><textarea name="yourMessage" id="feed-msg" cols="20" rows="5" placeholder="Enter your Feedback/Message here..." required></textarea></td>
             </tr>
 
             <tr>
-                <td><input type="submit"></td>
+                <td><input class="cont-meh4" type="submit"></td>
+                <td><a href="./index.html"><input class="cont-meh4" type="button" value="Back"></a></td>
+                <td> <input type="reset" value="Reset"> </td>
             </tr>
-
         </table>
     </form>
-    </div>
+</div>
 </body>
 </html>
